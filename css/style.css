@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
 }
 
 img{
