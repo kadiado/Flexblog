@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/*Super-Info*/
+
+.superinfo-bg{
+    background: #122ab2;
+
+    color: white;
+}
+
+.superinfo a{
+    color: white;
+}
+
+
+.superinfo {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.superinfo p, .superinfo a {
+    padding: 0 10px 10px
+}
+
+/*Menu-BG*/
+
+.menu-bg {
+    background-color: #2c70ff;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-logo a{
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    padding: 10px 0;
+}
+
+.menu-nav a:hover {
+    color: #122ab2;
+}
+
+/*Introduçao*/
+
+.introducao {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+
+}
+
+/*Sobre*/
+
+.sobre{
+    border-top: 2px solid #2c70ff ;
+    border-bottom: 2px solid #2c70ff ;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
+
+}
+
+.sobre-info h2{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+/*produtos*/
+
+.produtos{
+    max-width: 960px;
+    padding: 60px 10px 0;
+
+    margin: 0 auto;
+}
+
+.produtos h2{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.produtos-container{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.produtos-container h3{
+    padding: 50px 10px;
+    font-size: 2em;
+    color: #7c7c7c;
+    background-color: #f7f7f7;
+}
+
+.produtos-item{
+    margin: 0 10px;
+}
+.purple {
+    border-top: 5px solid #ae81ff;
+}
+
+.pink {
+    border-top: 5px solid #f9265e;
+}
+
+.blue {
+    border-top: 5px solid #66d9eb;
+}
